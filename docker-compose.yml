@@ -1,0 +1,9 @@
+services:
+  sql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      MSSQL_SA_PASSWORD: "math@3045"
+      ACCEPT_EULA: "Y"
+    platform: "linux/amd64"
+    ports:
+      - "1433:1433"
