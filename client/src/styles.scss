@@ -1,1 +1,16 @@
+@use 'tailwindcss';
+@use '@angular/material' as mat;
+//@import "tailwindcss";
+//@use "tailwindcss/base";
+//@use "tailwindcss/components";
+@use "tailwindcss/utilities";
 
+:root {
+  @include mat.button-overrides((
+    filled-container-shape: 6px,
+    outlined-container-shape: 6px,
+  ));
+  @include mat.badge-overrides((
+    background-color: pink,
+  ));
+}
