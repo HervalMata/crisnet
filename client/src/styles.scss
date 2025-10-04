@@ -13,4 +13,17 @@
   @include mat.badge-overrides((
     background-color: pink,
   ));
+
+  .container {
+    @apply mx-auto max-w-screen-2xl;
+  }
+
+  .text-primary {
+    @apply text-pink-700;
+  }
+
+  .match-input-height {
+    height: var(--mat-form-field-container-height) !important;
+  }
+
 }
