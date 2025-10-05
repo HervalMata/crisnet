@@ -7,17 +7,18 @@
         </div>
         <div class="mt-6 sm:mt-8 lg:mt-0">
           <h1 class="text-2xl font-semibold text-gray-900">{{product.name}}</h1>
+          <p>Você tem {{quantityInCart}} de itens no seu carrinho</p>
           <div class="text-3xl font-extrabold text-gray-900">
             <p>R{{product.price | currency}}</p>
           </div>
           <div class="flex gap-4 mt-6">
-            <button mat-flat-button class="match-input-height">
+            <button (click)="updateCart()" mat-flat-button class="match-input-height" [disabled]="quantity === quantityInCart">
               <mat-icon>add_shopping_cart</mat-icon>
-              Adcionar ao carrinho
+              {{getButtonText()}}
             </button>
             <mat-form-field appearance="outline" class="flex flex-row">
               <mat-label>Quantidade</mat-label>
-              <input matInput type="number"/>
+              <input matInput min="0" type="number" [(ngModel)]="quantity" type="number"/>
             </mat-form-field>
           </div>
           <mat-divider class="my-6"></mat-divider>
