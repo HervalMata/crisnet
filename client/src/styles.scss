@@ -1,18 +1,22 @@
 @use 'tailwindcss';
 @use '@angular/material' as mat;
-//@import "tailwindcss";
-//@use "tailwindcss/base";
-//@use "tailwindcss/components";
 @use "tailwindcss/utilities";
 
 :root {
   @include mat.button-overrides((
     filled-container-shape: 6px,
     outlined-container-shape: 6px,
+    //background-color: #b98ecc
   ));
   @include mat.badge-overrides((
     background-color: pink,
   ));
+
+  /* @include mat.button-overrides((
+    container-color: #b98ecc,
+    container-elevation-shadow: -4px -4px 5px 0px rgba(0, 0, 0, 0.5),
+  )); */
+
 
   .container {
     @apply mx-auto max-w-screen-2xl;
@@ -51,5 +55,13 @@
     [role="button"]:not(:disabled) {
       cursor: pointer;
     }
+  }
+
+  .mat-primary {
+    color: #b98ecc;
+  }
+
+  .mat-button.mat-primary {
+    background-color: #b98ecc;
   }
 }
