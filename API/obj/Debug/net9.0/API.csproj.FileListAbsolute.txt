@@ -68,7 +68,6 @@ C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.Identity
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Mono.TextTemplating.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.ClientModel.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.CodeDom.dll
@@ -78,13 +77,10 @@ C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Composition
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Composition.Runtime.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Composition.TypedParts.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Drawing.Common.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Memory.Data.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Runtime.Caching.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Security.Permissions.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\System.Windows.Extensions.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -156,12 +152,7 @@ C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win-arm\n
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\API.staticwebassets.runtime.json
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\StackExchange.Redis.dll
@@ -170,3 +161,5 @@ C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.AspNetCo
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\User\Documents\Projects\crisnet\API\bin\Debug\net9.0\Stripe.net.dll
