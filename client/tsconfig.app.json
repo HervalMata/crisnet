@@ -5,7 +5,10 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": [],
-    "typeRoots": ["node_modules/@angular/material"]
+    "typeRoots": ["node_modules/@angular/material"],
+    /* "lib": [
+            "es5", "es6", "dom", "dom.iterable"
+    ] */
   },
   "include": [
     "src/**/*.ts"
